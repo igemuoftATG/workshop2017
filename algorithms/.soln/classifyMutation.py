@@ -57,6 +57,6 @@ def getDNAfromFasta (fastafile):
     return dna
 
 if __name__ == "__main__":
-    dna1 = getDNAfromFasta("test2-1.fasta")
-    dna2 = getDNAfromFasta("test2-2.fasta")
+    dna1 = getDNAfromFasta("test1-1.fasta")
+    dna2 = getDNAfromFasta("test1-2.fasta")
     print (classifyMutation(dna1, dna2))
